@@ -1,0 +1,20 @@
+// .devcontainer/devcontainer.json
+{
+    "name": "LightGBM 3.2.1",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "forwardPorts": [8888]
+}
