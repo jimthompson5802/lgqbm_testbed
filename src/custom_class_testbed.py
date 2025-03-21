@@ -38,7 +38,7 @@ model = CustomLGBMClassifier(
     max_depth=5,
     num_leaves=31,
     random_state=42,
-    # custom_param=123,
+    custom_param=9,
 )
 
 # Train the model
