@@ -23,4 +23,4 @@ RUN apt-get update && apt-get install -y \
 
 
 RUN pip install --upgrade pip setuptools wheel \
-    && pip install lightgbm scipy scikit-learn pandas jupyter ipykernel
+    && pip install lightgbm scipy 'scikit-learn<1.6' pandas jupyter ipykernel
